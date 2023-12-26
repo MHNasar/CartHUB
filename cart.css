@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#empty-cart-message {
+  display: none; /* Initially hide the message */
+}
+
+#cart-items:empty + #empty-cart-message {
+  display: block; /* Show the message when cart is empty */
+}
+
+#empty-cart-message p {
+  color: #888;
+}
+
+#empty-cart-message a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#empty-cart-message a:hover {
+  text-decoration: underline;
+}

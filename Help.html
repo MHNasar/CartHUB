@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Help.css">
+  <title>Help</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <main>
+    <p>If you need assistance, you can contact us at:</p>
+    <p>Phone: <span id="phone"></span></p>
+    <p>Our customer support is available during the following hours:</p>
+    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+    <p>Saturday: 10:00 AM - 4:00 PM</p>
+    <p>Sunday: Closed</p>
+  </main>
+  <script>
+    // Generate a random phone number
+    function generateRandomPhoneNumber() {
+      return "+1 000-" + Math.floor(Math.random() * 1000) + "-" + Math.floor(Math.random() * 10000);
+    }
+
+    // Display the random phone number on the page
+    document.getElementById('phone').textContent = generateRandomPhoneNumber();
+  </script>
+</body>
+</html>

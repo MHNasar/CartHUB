@@ -1,0 +1,132 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+/* Style the header */
+header {
+  background-color: #232f3e;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: left;
+}
+
+/* Style the logo */
+#logo {
+  height: 70px; 
+  width: auto; 
+}
+
+/* Style the cart link */
+#cart a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  text-align: right;
+}
+
+/* Style the search form */
+#searchForm {
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Style the search input */
+#searchInput {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: #2f3e4e;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the navbar links */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style the products section */
+#products {
+  padding: 20px;
+}
+
+/* Style the featured products list */
+#products ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style the product items */
+#products li {
+  width: 30%; /* Adjust as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the product images */
+#products li img {
+  width: 10%;
+  height: auto;
+}
+
+/* Style the product titles */
+#products li h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Style the product descriptions */
+#products li p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* Style the product prices */
+#products li p:last-child {
+  font-weight: bold;
+  color: #ff9900;
+  margin-top: 5px;
+}
+
+/* Style the "Add to Cart" buttons */
+#products li button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+  background-color: #232f3e;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

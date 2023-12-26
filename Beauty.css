@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+/* Style the header */
+header {
+  background-color: #232f3e;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: left;
+}
+
+/* Style the logo */
+.logo img {
+  height: 50px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Style the cart link */
+.cart a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  text-align: right;
+}
+
+/* Style the search form */
+.search-bar {
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Style the search input */
+#searchInput {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: #2f3e4e;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the navbar links */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style the products section */
+#products {
+  padding: 20px;
+}
+
+/* Style the featured products list */
+#products ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify
