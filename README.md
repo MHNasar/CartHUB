@@ -1,1 +1,2 @@
 # CartHUB
+CartHUB is a website inspired by Amazon, designed as an e-commerce platform where users can explore various departments and browse through a wide range of items listed for sale. The website provides a user-friendly interface to navigate through different product categories, view detailed product information, and add items to their cart for purchase. CartHUB is built using HTML, CSS, and vanilla JavaScript, providing a non-responsive experience optimized for desktop use.
